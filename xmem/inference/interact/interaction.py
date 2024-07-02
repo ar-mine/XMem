@@ -12,7 +12,7 @@ import torch.nn.functional as F
 import numpy as np
 import cv2
 import time
-from .interactive_utils import color_map, index_numpy_to_one_hot_torch
+from xmem.inference.interact.interactive_utils import color_map, index_numpy_to_one_hot_torch
 
 
 def aggregate_sbg(prob, keep_bg=False, hard=False):
